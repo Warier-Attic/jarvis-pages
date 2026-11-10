@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · JARVIS</title>
+<style>
+  :root { color-scheme: dark light; }
+  body { font: 15px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 4rem; background: #0b0f14; color: #d7dee8; }
+  h1 { font-size: 1.4rem; margin: 0 0 .25rem; color: #00d2d3; }
+  h2 { font-size: 1.05rem; margin: 1.75rem 0 .5rem; color: #e6edf5; }
+  p, li { color: #b9c4d2; }
+  a { color: #00d2d3; }
+  .muted { color: #8393a7; font-size: .9rem; }
+  @media (prefers-color-scheme: light) { body { background: #fff; color: #1b2430; } h2 { color: #111; } p, li { color: #333; } .muted { color: #666; } h1, a { color: #007c7d; } }
+</style>
+</head>
+<body>
+<h1>JARVIS: Política de privacidad</h1>
+<p class="muted">Asistente personal de uso privado. Última actualización: octubre de 2026.</p>
+
+<h2>Qué es JARVIS</h2>
+<p>JARVIS es un asistente personal que funciona para una sola persona, su propietaria. No es un servicio público ni se ofrece a terceros: cada instancia pertenece y es operada por quien la instala.</p>
+
+<h2>A qué información accede</h2>
+<p>Solo con el permiso explícito de su propietaria, y únicamente para atender sus peticiones:</p>
+<ul>
+  <li><strong>Google Calendar:</strong> leer eventos y crear eventos nuevos.</li>
+  <li><strong>Gmail:</strong> leer mensajes y enviar correos.</li>
+  <li><strong>Google Tasks:</strong> leer, crear y completar tareas.</li>
+  <li><strong>Notion:</strong> buscar y leer las páginas que la propietaria comparta con la conexión, y crear notas nuevas.</li>
+</ul>
+
+<h2>Cómo se usa</h2>
+<ul>
+  <li>La información se usa solo para responder a lo que la propietaria pide en el momento.</li>
+  <li><strong>Nunca se envía un correo ni se crea un evento sin que la propietaria lo confirme</strong> de forma explícita.</li>
+  <li>No se usa para publicidad, ni para perfilar, ni se vende o comparte con terceros.</li>
+  <li>El uso y la transferencia de la información recibida de las APIs de Google cumple con la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado.</li>
+</ul>
+
+<h2>Qué se guarda y dónde</h2>
+<ul>
+  <li>El contenido de correos y eventos <strong>no se almacena de forma permanente</strong>: se consulta cuando hace falta y se descarta.</li>
+  <li>Se conservan temporalmente (hasta 7 días) los textos recientes de la conversación, para dar continuidad, en el servidor de la propietaria.</li>
+  <li>Las credenciales de acceso (por ejemplo, el token de autorización de Google) se guardan solo en la configuración privada del servidor, nunca en el código ni en repositorios públicos.</li>
+</ul>
+
+<h2>Proveedores de inteligencia artificial</h2>
+<p>Para entender y redactar respuestas, JARVIS envía a un modelo de lenguaje únicamente el fragmento mínimo necesario de la petición y de los datos relacionados, con códigos de verificación, números de tarjeta y claves enmascarados antes del envío. Según la configuración, el proveedor puede ser Google (Gemini), Ollama u otro compatible. Cada proveedor trata esos datos según sus propios términos.</p>
+
+<h2>Control y eliminación</h2>
+<ul>
+  <li>Puedes revocar el acceso de JARVIS a tu cuenta de Google en cualquier momento en <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  <li>Las conexiones de Notion se retiran desde los ajustes de conexiones de Notion.</li>
+  <li>Al detener o borrar la instancia se elimina todo lo que guarda.</li>
+</ul>
+
+<h2>Contacto</h2>
+<p>Para cualquier duda, contacta a la persona que opera esta instancia de JARVIS.</p>
+</body>
+</html>
